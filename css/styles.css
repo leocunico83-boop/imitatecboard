@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Mada-Medium.ttf', sans-serif;
+    src: url("../fonts/Mada-Medium.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Lato-Regular.ttf', sans-serif;
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    background-color: #4e7a53;
+}
+
+header img{
+    display: block;
+    margin: 175px 0 0 460px;
+}
+
+h1 {
+    font-size: 74px;
+    color: #000000ff;
+    font-family:'Mada-Medium.ttf', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 span {
+    color: #000000ff;
+
+}
+
+p {
+    font-size: 34px;
+    color: #FFFFFF;
+    font-family:'Lato-Regular.ttf', sans-serif;
+    font-weight:400; 
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 24px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none; 
+    font-size: 24px;
+    font-family: 'Lato-Regular.ttf';
+    background-color: #111211;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+
+}
+a:hover{
+    background-color: #3d3d3f;
+}
+section img{ 
+    display:block;
+    width: 792;
+    height: 446;
+    margin: 0 auto;
+}
